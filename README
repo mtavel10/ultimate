@@ -1,0 +1,58 @@
+This is an implementation of Ultimate Tic Tac Toe, a game my Dad taught me and 
+my sisters to keep us entertained at restaurants. 
+
+I want to use this project to teach myself C++.
+
+In regular Tic Tac Toe, you win by connecting three in a row on a larger board. What makes this Tic Tac Toe game "ultimate" is that to claim a box,
+players must win the tic tac toe game within that box. 
+
+
+     |     |      
+  X  |  O  |  O  
+     |     |    
+-----+-----+-----
+     |     |     
+  O  |  X  |  O  
+     |     |     
+-----+-----+-----
+     |     |      
+  X  |  O  |  x  
+     |     |      
+
+
+"NORMAL" TIC TAC TOE
+
+
+ x |   | o  | o | x |    |
+---+---+--- |---+---|--- |
+ x | o |    | 
+---+---+--- |
+ o | o | x  |
+            |
+------------+
+            |
+ x |   | o  |
+---+---+--- |
+ x | o |    |
+---+---+--- |
+ o | o | x  |
+            |
+------------+
+            |
+ x |   | o  |
+---+---+--- |
+ x | o |    |
+---+---+--- |
+ o | o | x  |
+            |
+
+
+"ULTIMATE" TIC TAC TOE
+
+ 
+A player's move must be made in the corresponding grid to their opponent's last move. 
+For example, the same starts in grid 0. Player EX puts an X in cell 5, so now
+Player OH can make a move in grid 5. 
+
+The logic and internal structures of the game are complete. I'm in progress of 
+coding a playable UI version of the game. 
